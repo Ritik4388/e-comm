@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SignUp from "../profile/signUp/signUp";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import SignUp from "../profile/signUp/signUp";
 import "./navbar.css";
 const Navbar = ({ click }) => {
   return (
@@ -28,16 +28,10 @@ const Navbar = ({ click }) => {
         </li>
 
         <li>
-          {/* <BrowserRouter> */}
-            <Routes>
-              <Route path="/api/signUp" element={
-                <SignUp />
-              }>
-                <i className="fa-solid fa-lock"></i>
-                Login/ SignUp
-              </Route>
-             </Routes>
-         {/* </BrowserRouter> */}
+          <Link to="/signUp">
+            <i className="fa-solid fa-lock"></i>
+            LogIn/ SignUp
+          </Link>
         </li>
       </ul>
       <div className="navbar_menu" onClick={click}>
