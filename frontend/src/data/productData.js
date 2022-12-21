@@ -1,4 +1,4 @@
-export const productData = [
+const productData = [
   {
     id: 1,
     name: "PlayStation 5",
@@ -62,3 +62,4 @@ export const productData = [
 ];
 
 // module.exports = productData;
+export default productData;

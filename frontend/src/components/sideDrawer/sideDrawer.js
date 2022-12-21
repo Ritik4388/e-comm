@@ -10,7 +10,7 @@ const SideDrawer = ({ show, click }) => {
       <ul onClick={click}>
         <li>
           <Link to="/cart">
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-cart-shopping"></i>
             Cart
             <span className="sideDrawer_cartVal"> 0</span>
           </Link>
@@ -18,7 +18,7 @@ const SideDrawer = ({ show, click }) => {
 
         <li>
           <Link to="/">
-            <i class="fa-solid fa-house"></i>
+            <i className="fa-solid fa-house"></i>
             Home
           </Link>
         </li>

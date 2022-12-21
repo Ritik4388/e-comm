@@ -11,7 +11,7 @@ const CartScreen = () => {
         {cart?.map((item) => (
           <CartItem
             id={item.id}
-            img_url={item.image}
+            img_url={item.image_URL}
             title={item.title}
             price={item.price}
             quantity={item.quantity}
